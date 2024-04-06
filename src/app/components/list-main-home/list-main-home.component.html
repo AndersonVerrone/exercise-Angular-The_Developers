@@ -1,0 +1,9 @@
+<ul>
+    <app-card-main-home
+        *ngFor="let user of userList"
+        [img]="user.img"
+        [alt]="user.alt"
+        [name]="user.name"
+        [description]="user.description"
+    ></app-card-main-home>
+</ul>

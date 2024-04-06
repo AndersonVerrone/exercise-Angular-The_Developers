@@ -1,0 +1,9 @@
+@import "../../../styles.scss";
+
+ul {
+    @include container;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3.125rem;
+}

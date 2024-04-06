@@ -1,0 +1,23 @@
+@import "../../../styles.scss";
+
+div {
+    max-width: 32.4375rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8125rem;
+
+    > p:first-of-type {
+        @include detailParagraph;
+    }
+
+    > h1 {
+        @include title1;
+        margin-bottom: 1.0625rem;
+    }
+
+    >p:last-of-type {
+        @include Paragraph;
+        text-align: center;
+    }
+}

@@ -1,0 +1,12 @@
+@import "../../../styles.scss";
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+
+    > img {
+        width: 9.1875rem;
+    }
+}

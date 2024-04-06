@@ -1,0 +1,21 @@
+@import '../../../styles.scss';
+
+div {
+    background: $black;
+    height: 8.4375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > div {
+        @include container;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        > h1 {
+            @include title1;
+            color: $white;
+        }
+    }
+}
